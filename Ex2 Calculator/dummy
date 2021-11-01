@@ -1,1 +1,15 @@
+In build.gradle (module not project):
 
+dependencies{
+  along with other dependencies add this
+  implementation 'io.apisense:rhino-android:1.1.1'
+}
+
+
+
+
+In java file:
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
