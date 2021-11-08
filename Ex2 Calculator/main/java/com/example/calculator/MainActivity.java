@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Invalid Input", Toast.LENGTH_SHORT).show();
         }
         if(result != null) {
-            resultsTV.setText(String.valueOf(result.doubleValue()));
-            workingsTV.setText(String.valueOf(result.doubleValue()));
+            resultsTV.setText(String.format("%.2f", result));
+            workingsTV.setText(String.format("%.2f", result));
             workings = String.valueOf(result.doubleValue());
         }
     }
