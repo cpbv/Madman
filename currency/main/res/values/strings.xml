@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">currency</string>
+    <string-array name="fromcurrency">
+        <item>From</item>
+        <item>INR</item>
+        <item>USD</item>
+        <item>RIAL</item>
+    </string-array>
+    <string-array name="tocurrency">
+        <item>To</item>
+        <item>INR</item>
+        <item>USD</item>
+        <item>RIAL</item>
+    </string-array>
+</resources>
