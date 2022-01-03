@@ -110,8 +110,8 @@
         android:layout_height="80dp"
         android:layout_marginStart="208dp"
         android:layout_marginBottom="324dp"
-        android:text="^"
-        android:onClick ="onclickPower"
+        android:text="%"
+        android:onClick ="onclickMod"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
