@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String customHtml = "<html><body><h1>Hello</h1>" +
+                String customHtml = "<html><body style="background-color:powderblue;"><body><h1>Hello</h1>" +
                         "<h3>Welcome to the <em>restaurant</em></h3>" +
                         "<p><mark>Buy 1 get 1 free</mark></p>" +
                         "<p>List of beverages</p>" +
